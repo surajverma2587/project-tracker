@@ -1,5 +1,17 @@
+:root {
+  --charcoal: #264653;
+  --persian-green: #2a9d8f;
+  --yellow-crayola: #e9c46a;
+  --sandy-brown: #f4a261;
+  --burnt-sienna: #e76f51;
+}
+
 .banner {
-  background-color: #264653;
+  background-color: var(--charcoal);
   color: white;
-  border-bottom-color: #2a9d8f !important;
+  border-bottom-color: var(--persian-green) !important;
+}
+
+.clock {
+  color: var(--yellow-crayola);
 }
